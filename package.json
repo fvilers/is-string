@@ -2,6 +2,11 @@
   "name": "is-string",
   "version": "0.0.0",
   "description": "A TypeScript type guard that validates if the given value is a string",
+  "main": "dist/is-string.js",
+  "types": "dist/is-string.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fvilers/is-string.git"
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fvilers/is-string/issues"
   },
-  "homepage": "https://github.com/fvilers/is-string#readme"
+  "homepage": "https://github.com/fvilers/is-string#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
 }
