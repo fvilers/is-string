@@ -14,10 +14,14 @@ or
 yarn add @fvilers/is-string
 ```
 
+# ECMAScript module
+
+Starting with version 2.0.0, this library will be published as an ECMAScript module.
+
 ## Usage
 
 ```ts
-import isString from "@fvilers/is-string";
+import { isString } from "@fvilers/is-string";
 
 const variable: any = "This is a string";
 

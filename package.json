@@ -2,6 +2,7 @@
   "name": "@fvilers/is-string",
   "version": "1.0.0",
   "description": "A TypeScript type guard that validates if the given value is a string",
+  "type": "module",
   "main": "dist/is-string.js",
   "types": "dist/is-string.d.ts",
   "scripts": {
@@ -23,6 +24,6 @@
   },
   "homepage": "https://github.com/fvilers/is-string#readme",
   "devDependencies": {
-    "typescript": "^4.4.3"
+    "typescript": "^4.7.4"
   }
 }
