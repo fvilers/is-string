@@ -1,6 +1,6 @@
 {
   "name": "@fvilers/is-string",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A TypeScript type guard that validates if the given value is a string",
   "type": "module",
   "main": "dist/is-string.js",
